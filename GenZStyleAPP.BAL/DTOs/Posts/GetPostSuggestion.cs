@@ -32,6 +32,6 @@ namespace GenZStyleAPP.BAL.DTOs.Posts
         /*public GetAccountResponse Account { get; set; }*/
 
         public List<string>? Hashtags { get; set; }
-        public ICollection<GetPostLikeSuggestion> Likes { get; set; }
+        //public ICollection<GetPostLikeSuggestion> Likes { get; set; }
     }
 }
