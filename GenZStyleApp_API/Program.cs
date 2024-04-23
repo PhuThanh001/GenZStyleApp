@@ -205,7 +205,7 @@ namespace GenZStyleApp_API
             builder.Services.AddScoped<IHashTagRepository, HashTagRepository>();
             builder.Services.AddScoped<ILikeRepository, LikeRepository>();
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
-            builder.Services.AddScoped<IPostRepository, PostRepository>();
+            //builder.Services.AddScoped<IPostRepository, PostRepository>();
             builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
             builder.Services.AddScoped<IReportRepository, ReportRepository>();
             builder.Services.AddScoped<IPackageRepository, PackageRepository>();
